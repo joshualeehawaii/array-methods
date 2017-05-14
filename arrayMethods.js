@@ -14,6 +14,8 @@ var orderedValues = [4, 5, 6, 7, 8, 9, 10];
 var friends = ['Todd', 'Jacoby', 'Miko', 'Joseph', 'Kevin', 'Todd C.'];
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
+var otherOrder = {takeOut:'burger'};
+var anotherOrder = {takeOut:'taco'};
 
 // do your work below!
 var nameArray = [];
@@ -31,3 +33,4 @@ upToTen.splice(0,7,1,2,3,4,5,6,7,8,9,10);
 brownOnly.splice(0,8,'brown', 'brown', 'brown', 'brown','brown');
 var orderedValuesNewLength = orderedValues.unshift(1,2,3);
 var randomThingsArray = genericNumberArray.concat(colors);
+var updatedOrders = orderQueue.concat(otherOrder,anotherOrder);
