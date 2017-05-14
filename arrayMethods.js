@@ -30,4 +30,4 @@ var notGems = gemBox.splice(5,12, 'Sapphire');
 upToTen.splice(0,7,1,2,3,4,5,6,7,8,9,10);
 brownOnly.splice(0,8,'brown', 'brown', 'brown', 'brown','brown');
 var orderedValuesNewLength = orderedValues.unshift(1,2,3);
-
+var randomThingsArray = genericNumberArray.concat(colors);
